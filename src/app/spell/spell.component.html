@@ -1,0 +1,23 @@
+<div class=".container-sm	" class="login" > 
+  
+<form class="mx-auto" style="width: 250px" >
+  <h2 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" style="text-align: center;" 
+  >Welcome to Tasty Bakery!</h2> <br>
+  <h5 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" style="text-align: center;"
+  >Log in to see more</h5>
+  <div class="form-floating mb-3">
+    <input type="email" class="form-control" id="floatingInput" placeholder="Username" name="username" [(ngModel)]='username'>
+ 
+  </div>
+  <div class="form-floating">
+    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" name="password" [(ngModel)]='password'>
+  </div> <br>
+    <button class="button" type="submit" class="btn btn-light" (click)="login()">Sign in</button>
+  </form>
+  <div class="image">
+    <img src="../../assets/bread1.jpg" alt="" width="562px" height="635px">
+  </div>
+  <div class="baker">
+    <img src="../../assets/baker.jpg" alt="" width="400px" height="380px">
+  </div>
+</div>

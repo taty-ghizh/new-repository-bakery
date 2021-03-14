@@ -1,0 +1,42 @@
+.feautures {
+    background-image: url(../../assets/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    figure {
+        margin: auto;
+        padding-top: 20px;
+        margin-top: 0;
+        width: 100%;
+        justify-content: space-around;
+        text-align: center;
+        text-transform: uppercase;
+        color: black;
+        font-weight: bold;
+        img {
+            border-radius: 10px;
+            box-shadow: gray 0 0 10px;
+        }
+        figcaption {
+            padding: 20px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+     .feautures {
+         height: 300vh;
+         display: block;
+     }
+}
+
+footer {
+    background-color: #CCD3D9;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 12px;
+}
+
